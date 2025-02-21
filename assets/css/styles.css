@@ -1,5 +1,3 @@
-/* global styles */
-
 /* Google fonts import */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap");
 
@@ -12,6 +10,7 @@
     --highlight-color: #416a8e; /* blue */
     --hightlight-color-light: #7a9fc2; /* light blue */
 }
+/* global styles */
 
 body {
     font-family: var(--primary-font);
@@ -22,10 +21,16 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color {
     color: var(--highlight-color);
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* Navbar */
@@ -38,6 +43,10 @@ h3 {
     width: 30px;
 }
 
+/* Header */
+#header .lead {
+    font-family: var(--secondary-font);
+}
 /* .container,
 .row {
     border: 2px solid black;
