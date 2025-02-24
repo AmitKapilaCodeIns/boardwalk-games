@@ -39,8 +39,10 @@ h2 {
 }
 
 .section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    /* margin-top: 2rem;
+    margin-bottom: 2rem; */
+    padding-top: 4rem; /* still maintains the gap between sections
+    but also allows the headings to not be covered by the navbar */
 }
 
 /* Buttons */
