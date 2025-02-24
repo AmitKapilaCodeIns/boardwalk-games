@@ -95,6 +95,22 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+#events p {
+    text-align: left;
+}
+
+#events table {
+    text-align: left;
+    font-size: auto;
+}
+
+#events .discount {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    width: auto;
+}
 /* Game library cards */
 
 #new-games .card,

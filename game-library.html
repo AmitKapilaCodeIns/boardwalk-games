@@ -224,6 +224,57 @@
                 </div>
             </div>
         </section>
+
+        <!-- Reserve game form section -->
+        <section id="reserve-form" class="container section">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="display-6">Reserve a game</h2>
+                    <form action="success.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="game-type" class="form-label">Select game</label>
+                                <select id="game-type" class="form-select" name="game-type" required>
+                                    <option value="" selected>Select game</option>
+                                    <option value="regular-play">Galaxy Pioneers</option>
+                                    <option value="dnd">Mystic Woods</option>
+                                    <option value="retro-night">Captain's Gambit</option>
+                                    <option value="tournament">Critter Quest</option>
+                                    <option value="kids-party">Setters of Catan</option>
+                                    <option value="kids-party">Monopoly</option>
+                                    <option value="kids-party">Exploding Kittens</option>
+                                    <option value="kids-party">Cluedo</option>
+                                </select>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="reqdate" class="form-label">Requested date</label>
+                                <input class="form-control" id="reqdate" name="reqdate" type="date" required>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn custom-button-outline">Submit</button>
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
     </main>
 
     <!-- footer / contact section -->
